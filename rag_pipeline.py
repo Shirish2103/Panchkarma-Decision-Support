@@ -14,7 +14,9 @@ if os.path.exists(".env"):
 # CONFIG
 # -------------------------
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "openai/gpt-oss-120b"
+# `llama-3.1-8b-instant` was deprecated by Groq on August 16, 2026.
+# Keep the model configurable so it can be changed without modifying code.
+LLM_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 
 # -------------------------
 # CHECK API KEY
