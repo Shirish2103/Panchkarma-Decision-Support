@@ -14,7 +14,7 @@ if os.path.exists(".env"):
 # CONFIG
 # -------------------------
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "llama-3.1-8b-instant"
+LLM_MODEL = "openai/gpt-oss-120b"
 
 # -------------------------
 # CHECK API KEY
