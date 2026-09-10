@@ -103,7 +103,6 @@ cd Panchakarma-Decision-Support
 <p>Create a file named <code>.env</code> in the project root:</p>
 
 <pre><code>GROQ_API_KEY=your_api_key_here
-GROQ_MODEL=openai/gpt-oss-20b
 </code></pre>
 
 <h2>6. Run the Application</h2>
@@ -138,7 +137,6 @@ GROQ_MODEL=openai/gpt-oss-20b
 <p>Add:</p>
 
 <pre><code>GROQ_API_KEY = "your_api_key_here"
-GROQ_MODEL = "openai/gpt-oss-20b"
 </code></pre>
 
 <h2>3. Start the Application</h2>
